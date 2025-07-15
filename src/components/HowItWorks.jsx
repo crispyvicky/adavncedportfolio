@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -33,17 +32,18 @@ const HowItWorks = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         <div id="chip" className="flex-center my-20 w-full">
-          <img src={chipImg} alt="Chip" width={180} height={180} />
+          <img src={chipImg} alt="React + Next.js" width={180} height={180} />
         </div>
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A17 Pro chip.
-            <br />A monster win for gaming.
+            Built with modern tech.
+            <br />
+            Crafted for real-world impact.
           </h2>
 
           <p className="hiw-subtitle">
-            It&apos;s here. The biggest redesign in the history of Apple GPUs
+            Every pixel, animation, and API is optimized for performance and precision.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const HowItWorks = () => {
             <div className="overflow-hidden">
               <img
                 src={frameImg}
-                alt="Frame"
+                alt="Project Showcase Frame"
                 className="relative z-10 bg-transparent"
               />
             </div>
@@ -71,33 +71,32 @@ const HowItWorks = () => {
           </div>
 
           <p className="text-gray mt-3 text-center font-semibold">
-            Honkai: Star Rail
+            VisionTech LMS Platform Preview
           </p>
         </div>
 
         <div className="hiw-text-container">
           <div className="flex flex-1 flex-col justify-center">
             <p className="hiw-text g_fadeIn">
-              A17 Pro is an entirely new class of iPhone chip that delivers our{" "}
-              <span className="text-white">
-                best graphic performance by far.
-              </span>{" "}
+              I engineer apps with{" "}
+              <span className="text-white">Next.js, React, and TypeScript</span>{" "}
+              to ensure lightning-fast loads and stunning visuals.
             </p>
 
             <br />
             <p className="hiw-text g_fadeIn">
-              Mobile{" "}
+              With a passion for animation,{" "}
               <span className="text-white">
-                games will look and feel so immersive
+                I blend GSAP and Three.js to elevate user interaction
               </span>{" "}
-              with incredibly detailed environments and characters.
+              beyond ordinary.
             </p>
           </div>
 
           <div className="g_fadeIn flex flex-1 flex-col justify-center">
-            <p className="hiw-text">New</p>
-            <p className="hiw-bigtext">Pro-class GPU</p>
-            <p className="hiw-text">with 6 cores</p>
+            <p className="hiw-text">Custom</p>
+            <p className="hiw-bigtext">GSAP Engine</p>
+            <p className="hiw-text">for buttery-smooth UX</p>
           </div>
         </div>
       </div>

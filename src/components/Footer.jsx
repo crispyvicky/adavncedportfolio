@@ -1,5 +1,4 @@
 import React from "react";
-
 import { footerLinks } from "../constants";
 
 const Footer = () => {
@@ -8,20 +7,16 @@ const Footer = () => {
       <div className="screen-max-width">
         <div className="">
           <p className="text-gray text-xs font-semibold">
-            More ways to shop:{" "}
+            Want to collaborate on a project?{" "}
             <span className="text-blue cursor-pointer hover:underline">
-              Find an Apple Store
+              Let’s connect
             </span>{" "}
-            or{" "}
-            <span className="text-blue cursor-pointer hover:underline">
-              other retailer
-            </span>{" "}
-            near you.
+            and build something meaningful together.
           </p>
           <p className="text-gray text-xs font-semibold">
-            Or call{" "}
+            Or email me at{" "}
             <span className="text-blue cursor-pointer hover:underline">
-              (800) 555-0100
+              vigneshyadav@visiontech.world
             </span>
             .
           </p>
@@ -31,16 +26,13 @@ const Footer = () => {
 
         <div className="flex flex-col justify-between md:flex-row md:items-center">
           <p className="text-gray text-xs font-semibold">
-            &copy; {new Date().getFullYear()} Apple Clone Inc. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Vignesh Yadav. All rights reserved.
           </p>
 
-          <div className="flex">
+          <div className="flex flex-wrap gap-x-2 text-xs font-semibold text-gray">
             {footerLinks.map((link, i) => (
-              <p key={link} className="text-gray text-xs font-semibold">
-                <span className="mx-2 cursor-pointer hover:underline">
-                  {link}
-                </span>
+              <p key={link}>
+                <span className="mx-2 cursor-pointer hover:underline">{link}</span>
                 {i !== footerLinks.length - 1 && "|"}
               </p>
             ))}

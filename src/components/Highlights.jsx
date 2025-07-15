@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -20,17 +19,17 @@ const Highlights = () => {
       <div className="screen-max-width">
         <div className="mb-12 w-full items-end justify-between md:flex">
           <h1 id="title" className="section-heading">
-            Get the highlights.
+            Portfolio Highlights
           </h1>
 
           <div className="flex flex-wrap items-end gap-5">
-            <p className="link">
-              Watch the film
-              <img src={watchImg} alt="Watch" className="ml-2" />
+            <p className="link flex items-center text-sm">
+              Watch My Work
+              <img src={watchImg} alt="Play Icon" className="ml-2 w-4 h-4" />
             </p>
-            <p className="link">
-              Watch the event
-              <img src={rightImg} alt="Right" className="ml-2" />
+            <p className="link flex items-center text-sm">
+              Behind the Scenes
+              <img src={rightImg} alt="Arrow Icon" className="ml-2 w-4 h-4" />
             </p>
           </div>
         </div>
