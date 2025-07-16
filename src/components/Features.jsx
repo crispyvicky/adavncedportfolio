@@ -70,6 +70,7 @@ const Features = () => {
                 className="size-full object-cover object-center"
                 preload="none"
                 muted
+                loop
                 autoPlay
                 ref={videoRef}
               >

@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-5 max-sm:flex-1 max-sm:justify-end">
           <a
-            href="https://github.com/your-github-username"
+            href="https://github.com/crispyvicky"
             target="_blank"
             rel="noreferrer"
             className="text-sm text-gray hover:text-white transition"
@@ -31,7 +31,7 @@ const Navbar = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/your-linkedin-id"
+            href="https://www.linkedin.com/in/vignesh-yadav-3691b7302/"
             target="_blank"
             rel="noreferrer"
             className="text-sm text-gray hover:text-white transition"
@@ -39,21 +39,21 @@ const Navbar = () => {
             LinkedIn
           </a>
           <a
-            href="https://instagram.com/your-instagram"
+            href="https://www.instagram.com/viickkyy______?igsh=amswejY3bnlrcWlx"
             target="_blank"
             rel="noreferrer"
             className="text-sm text-gray hover:text-white transition"
           >
             Instagram
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/your-twitter"
             target="_blank"
             rel="noreferrer"
             className="text-sm text-gray hover:text-white transition"
           >
             Twitter
-          </a>
+          </a> */}
         </div>
       </nav>
     </header>

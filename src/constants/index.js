@@ -15,34 +15,38 @@ export const hightlightsSlides = [
   {
     id: 1,
     textLists: [
-      "Enter A17 Pro.",
-      "Game-changing chip.",
-      "Groundbreaking performance.",
+      "I provide services like",
+      "",
+      "Full-Stack Development .",
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
   },
   {
     id: 2,
-    textLists: ["Titanium.", "So strong. So light. So Pro."],
+    textLists: [ "TECH I KNOW :","Frontend: React.js, Next.js, TailwindCSS",
+  "Animation: GSAP, Framer Motion",
+  "AI & Chat: Gemini API, LangChain",
+  "3D: Three.js, Blender (GLB)",
+  "Backend: FastAPI, REST APIs",
+  "Dev Tools: Git, Vercel, Postman"],
     video: highlightSecondVideo,
-    videoDuration: 5,
+    videoDuration: 4,
   },
   {
     id: 3,
     textLists: [
-      "iPhone 15 Pro Max has the",
-      "longest optical zoom in",
-      "iPhone ever. Far out.",
+      "GSAP Animations & Motion Design",
     ],
     video: highlightThirdVideo,
-    videoDuration: 2,
+    videoDuration: 4,
   },
   {
     id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
+    textLists: [
+      "I build applications that feel futuristic and lightning-fast.",],
     video: highlightFourthVideo,
-    videoDuration: 3.63,
+    videoDuration: 4,
   },
 ];
 

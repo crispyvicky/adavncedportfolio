@@ -37,19 +37,20 @@ const Hero = () => {
   return (
     <section className="nav-height relative w-full bg-black">
       <div className="flex-center h-5/6 w-full flex-col text-center">
-        <p
+        {/* <p
           id="hero"
           className="hero-title text-white opacity-0 transition-all duration-700"
         >
           Hello, I'm <span className="text-blue-500">Vignesh Yadav</span>
           <br />
           I build futuristic digital experiences.
-        </p>
+        </p> */}
 
         <div className="w-10/12 md:w-8/12 mt-8">
           <video
             autoPlay
             muted
+            loop
             playsInline
             key={videoSrc}
             className="pointer-events-none w-full rounded-xl shadow-lg"
@@ -64,7 +65,7 @@ const Hero = () => {
         className="flex translate-y-20 flex-col items-center opacity-0 transition-all duration-700"
       >
  <a
-  href="#projects"
+  href="https://vickys-portfolio.vercel.app/project"
   className="px-6 py-2 text-sm font-semibold text-gray-400 bg-black-800 hover:bg-gray-700 border border-gray-600 rounded-md transition-colors duration-300"
 >
   View Projects

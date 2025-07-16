@@ -8,16 +8,24 @@ const Footer = () => {
         <div className="">
           <p className="text-gray text-xs font-semibold">
             Want to collaborate on a project?{" "}
-            <span className="text-blue cursor-pointer hover:underline">
+            <a
+              href="https://www.instagram.com/viickkyy______?igsh=amswejY3bnlrcWlx" // 🔁 Replace with your Insta handle if different
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue cursor-pointer hover:underline"
+            >
               Let’s connect
-            </span>{" "}
+            </a>{" "}
             and build something meaningful together.
           </p>
           <p className="text-gray text-xs font-semibold">
             Or email me at{" "}
-            <span className="text-blue cursor-pointer hover:underline">
-              vigneshyadav@visiontech.world
-            </span>
+            <a
+              href="mailto:ankam.vignesh123@gmail.com"
+              className="text-blue cursor-pointer hover:underline"
+            >
+              ankam.vignesh123@gmail.com
+            </a>
             .
           </p>
         </div>
