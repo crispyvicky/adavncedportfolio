@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -64,15 +65,12 @@ const Hero = () => {
         id="cta"
         className="flex translate-y-20 flex-col items-center opacity-0 transition-all duration-700"
       >
- <a
-  href="https://vickys-portfolio.vercel.app/project"
-  className="px-6 py-2 text-sm font-semibold text-gray-400 bg-black-800 hover:bg-gray-700 border border-gray-600 rounded-md transition-colors duration-300"
->
-  View Projects
-</a>
-
-
-
+        <a
+          href="https://vickys-portfolio.vercel.app/project"
+          className="px-6 py-2 text-sm font-semibold text-gray-400 bg-black-800 hover:bg-gray-700 border border-gray-600 rounded-md transition-colors duration-300"
+        >
+          View Projects
+        </a>
         <p className="text-xl font-normal text-gray-400 mt-2">
           Full-stack | React | Next.js | AI | GSAP
         </p>
