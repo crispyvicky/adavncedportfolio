@@ -9,7 +9,7 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import frame from "/assets/images/frame.png";
 import github from "/assets/images/github.svg";
-import hero from "/assets/images/hero.jpeg";
+// import hero from "/assets/images/hero.jpeg";
 import pause from "/assets/images/pause.svg";
 import play from "/assets/images/play.svg";
 import replay from "/assets/images/replay.svg";
