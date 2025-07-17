@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -46,7 +47,7 @@ const Features = () => {
   }, []);
 
   return (
-    <section className="common-padding bg-zinc relative h-full overflow-hidden">
+    <section className="common-padding relative h-full overflow-hidden bg-zinc">
       <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="features-title" className="section-heading">
@@ -100,7 +101,7 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-center flex-1">
                   <p className="feature-text g_text">
-                    I'm a <span className="text-white">full-stack developer</span> who
+                    I&apos;m a <span className="text-white">full-stack developer</span> who
                     blends design and technology to build experiences that are fast,
                     fluid, and unforgettable.
                   </p>

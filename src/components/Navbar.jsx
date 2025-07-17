@@ -1,4 +1,5 @@
 import React from "react";
+
 import { navLists } from "../constants";
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
     <header className="flex w-full items-center justify-between p-5 sm:px-10">
       <nav className="screen-max-width flex w-full">
         {/* You can replace this with your logo or initials */}
-        <a href="#" className=" text-lg font-bold  text-gray hover:text-white transition">
+        <a href="#" className=" text-lg font-bold  text-gray transition hover:text-white">
           VIGNESH
         </a>
 
@@ -14,7 +15,7 @@ const Navbar = () => {
           {navLists.map((nav) => (
             <div
               key={nav}
-              className="text-gray cursor-pointer px-5 text-sm transition-all hover:text-white"
+              className="cursor-pointer px-5 text-sm text-gray transition-all hover:text-white"
             >
               {}
             </div>
@@ -26,7 +27,7 @@ const Navbar = () => {
             href="https://github.com/crispyvicky"
             target="_blank"
             rel="noreferrer"
-            className="text-sm text-gray hover:text-white transition"
+            className="text-sm text-gray transition hover:text-white"
           >
             GitHub
           </a>
@@ -34,7 +35,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/vignesh-yadav-3691b7302/"
             target="_blank"
             rel="noreferrer"
-            className="text-sm text-gray hover:text-white transition"
+            className="text-sm text-gray transition hover:text-white"
           >
             LinkedIn
           </a>
@@ -42,7 +43,7 @@ const Navbar = () => {
             href="https://www.instagram.com/viickkyy______?igsh=amswejY3bnlrcWlx"
             target="_blank"
             rel="noreferrer"
-            className="text-sm text-gray hover:text-white transition"
+            className="text-sm text-gray transition hover:text-white"
           >
             Instagram
           </a>

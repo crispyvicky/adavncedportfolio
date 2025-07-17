@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+
 import { pauseImg, playImg, replayImg } from "../assets";
 import { hightlightsSlides } from "../constants";
 
@@ -102,7 +104,7 @@ const VideoCarousel = () => {
       if (isPlaying) gsap.ticker.add(animUpdate);
       else gsap.ticker.remove(animUpdate);
     }
-  }, [videoId, startPlay]);
+  }, [videoId, startPlay, isPlaying]);
 
   const handleProcess = (type, i) => {
     switch (type) {

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -70,7 +71,7 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <p className="text-gray mt-3 text-center font-semibold">
+          <p className="mt-3 text-center font-semibold text-gray">
             Explore VisionTech in Action
           </p>
         </div>

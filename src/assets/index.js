@@ -17,7 +17,7 @@ import right from "/assets/images/right.svg";
 import search from "/assets/images/search.svg";
 import watch from "/assets/images/watch.svg";
 import white from "/assets/images/white.jpg";
-// import yellow from "/assets/images/yellow.jpg";
+import yellow from "/assets/images/yellowImg.jpg";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
 import hmv from "/assets/videos/hero.mp4";
@@ -25,9 +25,9 @@ import highlightFirstmv from "/assets/videos/highlight-first.mp4";
 import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
 import highlightSectmv from "/assets/videos/hightlight-third.mp4";
-// import smallmv from "/assets/videos/smallHero.mp4";
+import smallmv from "/assets/videos/smallHero.mp4";
 
-export const heroImg = hero;
+// export const heroImg = hero;
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;

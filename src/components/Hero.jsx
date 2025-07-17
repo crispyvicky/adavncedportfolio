@@ -47,7 +47,7 @@ const Hero = () => {
           I build futuristic digital experiences.
         </p> */}
 
-        <div className="w-10/12 md:w-8/12 mt-8">
+        <div className="mt-8 w-10/12 md:w-8/12">
           <video
             autoPlay
             muted
@@ -67,11 +67,12 @@ const Hero = () => {
       >
         <a
           href="https://vickys-portfolio.vercel.app/project"
-          className="px-6 py-2 text-sm font-semibold text-gray-400 bg-black-800 hover:bg-gray-700 border border-gray-600 rounded-md transition-colors duration-300"
+          // eslint-disable-next-line tailwindcss/no-custom-classname
+          className="bg-black-800 rounded-md border border-gray-600 px-6 py-2 text-sm font-semibold text-gray-400 transition-colors duration-300 hover:bg-gray-700"
         >
           View Projects
         </a>
-        <p className="text-xl font-normal text-gray-400 mt-2">
+        <p className="mt-2 text-xl font-normal text-gray-400">
           Full-stack | React | Next.js | AI | GSAP
         </p>
       </div>

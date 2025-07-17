@@ -1,4 +1,5 @@
 import React from "react";
+
 import { footerLinks } from "../constants";
 
 const Footer = () => {
@@ -6,23 +7,23 @@ const Footer = () => {
     <footer className="p-5 sm:px-10">
       <div className="screen-max-width">
         <div className="">
-          <p className="text-gray text-xs font-semibold">
+          <p className="text-xs font-semibold text-gray">
             Want to collaborate on a project?{" "}
             <a
               href="https://www.instagram.com/viickkyy______?igsh=amswejY3bnlrcWlx" // 🔁 Replace with your Insta handle if different
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue cursor-pointer hover:underline"
+              className="cursor-pointer text-blue hover:underline"
             >
               Let’s connect
             </a>{" "}
             and build something meaningful together.
           </p>
-          <p className="text-gray text-xs font-semibold">
+          <p className="text-xs font-semibold text-gray">
             Or email me at{" "}
             <a
               href="mailto:ankam.vignesh123@gmail.com"
-              className="text-blue cursor-pointer hover:underline"
+              className="cursor-pointer text-blue hover:underline"
             >
               ankam.vignesh123@gmail.com
             </a>
@@ -33,7 +34,7 @@ const Footer = () => {
         <div className="my-5 h-px w-full bg-neutral-700" aria-hidden />
 
         <div className="flex flex-col justify-between md:flex-row md:items-center">
-          <p className="text-gray text-xs font-semibold">
+          <p className="text-xs font-semibold text-gray">
             &copy; {new Date().getFullYear()} Vignesh Yadav. All rights reserved.
           </p>
 
