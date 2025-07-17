@@ -63,6 +63,7 @@ const HowItWorks = () => {
                 playsInline
                 preload="none"
                 muted
+                loop
                 autoPlay
                 ref={videoRef}
               >
