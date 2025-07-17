@@ -71,8 +71,8 @@ const HowItWorks = () => {
             </div>
           </div>
 
-          <p className="mt-3 text-center font-semibold text-gray">
-            Explore VisionTech in Action
+          <p className="text-gray mt-3 text-center font-semibold">
+            Explore  my work in Action
           </p>
         </div>
 
